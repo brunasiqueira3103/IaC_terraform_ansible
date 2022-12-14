@@ -1,0 +1,11 @@
+#https://www.toptal.com/developers/gitignore#
+
+### Arquivos que não devem ser compartilhados do Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# chave . pem (acesso SSH)
+*.pem
